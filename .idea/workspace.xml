@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;L'anno del drago&quot;.">
-      <change afterPath="$PROJECT_DIR$/The Bridge of Death/bridge.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;The Bridge of Death&quot;.">
+      <change afterPath="$PROJECT_DIR$/Calcolo dell'Età/età.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,9 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.annoDrago.executor": "Run",
+    "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
+    "Python.età.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -100,13 +103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1758663099437</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Svolto l'esercizio &quot;The Bridge of Death&quot;.">
+      <option name="closed" value="true" />
+      <created>1758663353657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758663353657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Svolto l'esercizio hello.py, scaricato il modulo g2d." />
     <MESSAGE value="Svolto l'esercizio &quot;Cerchio&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;L'anno del drago&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;L'anno del drago&quot;." />
+    <MESSAGE value="Svolto l'esercizio &quot;The Bridge of Death&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;The Bridge of Death&quot;." />
   </component>
 </project>
