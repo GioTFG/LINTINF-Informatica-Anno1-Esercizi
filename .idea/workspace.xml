@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Quadrati in diagonale&quot;.">
-      <change afterPath="$PROJECT_DIR$/Segmenti casuali/g2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Segmenti casuali/segmenti.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Segmenti casuali&quot;.">
+      <change afterPath="$PROJECT_DIR$/Linea spezzata/g2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Linea spezzata/linea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,7 @@
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
     "Python.età.executor": "Run",
+    "Python.linea.executor": "Run",
     "Python.minoreMaggiore.executor": "Run",
     "Python.quadrati.executor": "Run",
     "Python.quadratiDiagonale.executor": "Run",
@@ -58,11 +59,12 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Segmenti casuali"
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Linea spezzata"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Linea spezzata" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Segmenti casuali" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati in Diagonale" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati casuali" />
@@ -151,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758708019304</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Svolto l'esercizio &quot;Segmenti casuali&quot;.">
+      <option name="closed" value="true" />
+      <created>1758708517249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758708517249</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +173,7 @@
     <MESSAGE value="Svolto l'esercizio &quot;Minore e maggiore&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Quadrati casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Quadrati in diagonale&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Quadrati in diagonale&quot;." />
+    <MESSAGE value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
   </component>
 </project>
