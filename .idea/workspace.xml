@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Minore e maggiore&quot;.">
-      <change afterPath="$PROJECT_DIR$/Quadrati casuali/g2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Quadrati casuali/quadrati.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Quadrati casuali&quot;.">
+      <change afterPath="$PROJECT_DIR$/Quadrati in Diagonale/g2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Quadrati in Diagonale/quadratiDiagonale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GioTFG"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GioTFG&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GioTFG/LINTINF-Informatica-Anno1-Esercizi",
-    "accountId": "88ab280e-405e-4ccf-9b3e-dade92364d79"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GioTFG/LINTINF-Informatica-Anno1-Esercizi&quot;,
+    &quot;accountId&quot;: &quot;88ab280e-405e-4ccf-9b3e-dade92364d79&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -52,15 +52,17 @@
     "Python.età.executor": "Run",
     "Python.minoreMaggiore.executor": "Run",
     "Python.quadrati.executor": "Run",
+    "Python.quadratiDiagonale.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Quadrati casuali"
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Quadrati in Diagonale"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati in Diagonale" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati casuali" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Cerchio" />
     </key>
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758664183030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Svolto l'esercizio &quot;Quadrati casuali&quot;.">
+      <option name="closed" value="true" />
+      <created>1758664612332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758664612332</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,6 +151,7 @@
     <MESSAGE value="Svolto l'esercizio &quot;The Bridge of Death&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Calcolo dell'età&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Minore e maggiore&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Minore e maggiore&quot;." />
+    <MESSAGE value="Svolto l'esercizio &quot;Quadrati casuali&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Quadrati casuali&quot;." />
   </component>
 </project>
