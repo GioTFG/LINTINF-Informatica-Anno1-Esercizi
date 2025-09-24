@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Segmenti casuali&quot;.">
-      <change afterPath="$PROJECT_DIR$/Linea spezzata/g2d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linea spezzata/linea.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Linea spezzata&quot;.">
+      <change beforePath="$PROJECT_DIR$/Anno del drago/annoDrago.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Anno del drago/annoDrago.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calcolo dell'Età/età.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Calcolo dell'Età/età.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cerchio/cerchio.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Cerchio/cerchio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cerchio/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Cerchio/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello, Admin!/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Hello, Admin!/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linea spezzata/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Linea spezzata/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Linea spezzata/linea.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Linea spezzata/linea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Minore e maggiore/minoreMaggiore.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Minore e maggiore/minoreMaggiore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quadrati casuali/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Quadrati casuali/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quadrati casuali/quadrati.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Quadrati casuali/quadrati.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quadrati in Diagonale/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Quadrati in Diagonale/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Quadrati in Diagonale/quadratiDiagonale.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Quadrati in Diagonale/quadratiDiagonale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segmenti casuali/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Segmenti casuali/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Segmenti casuali/segmenti.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/Segmenti casuali/segmenti.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/The Bridge of Death/bridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basi/The Bridge of Death/bridge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +83,7 @@
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Cerchio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Basi" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
   </component>
@@ -161,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758708517249</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Svolto l'esercizio &quot;Linea spezzata&quot;.">
+      <option name="closed" value="true" />
+      <created>1758709221614</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758709221614</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +195,7 @@
     <MESSAGE value="Svolto l'esercizio &quot;Quadrati casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Quadrati in diagonale&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
+    <MESSAGE value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
   </component>
 </project>
