@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creati i primi 3 esercizi.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-4_Mai_indietro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Scaricata ball.png. Svolto l'esercizio 3-4.">
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-5_Sequenza_di_quadrati.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-6_Quadrati_a_destra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +50,8 @@
     "Python.3-2_Modello_esponenziale.executor": "Run",
     "Python.3-3_Pallina_colorata.executor": "Run",
     "Python.3-4_Mai_indietro.executor": "Run",
+    "Python.3-5_Sequenza_di_quadrati.executor": "Run",
+    "Python.3-6_Quadrati_a_destra.executor": "Run",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
@@ -291,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760481102105</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Scaricata ball.png. Svolto l'esercizio 3-4.">
+      <option name="closed" value="true" />
+      <created>1760482360308</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1760482360308</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -310,6 +320,7 @@
     <MESSAGE value="Creata cartella per gli esercizi in classe fatti sui quiz." />
     <MESSAGE value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
     <MESSAGE value="Creati i primi 3 esercizi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creati i primi 3 esercizi." />
+    <MESSAGE value="Scaricata ball.png. Svolto l'esercizio 3-4." />
+    <option name="LAST_COMMIT_MESSAGE" value="Scaricata ball.png. Svolto l'esercizio 3-4." />
   </component>
 </project>
