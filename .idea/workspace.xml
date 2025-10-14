@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-1_Parallelepipedo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-2_Modello_esponenziale.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-3_Pallina_colorata.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creati i primi 3 esercizi.">
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-4_Mai_indietro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +48,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.3-1_Parallelepipedo.executor": "Run",
     "Python.3-2_Modello_esponenziale.executor": "Run",
+    "Python.3-3_Pallina_colorata.executor": "Run",
+    "Python.3-4_Mai_indietro.executor": "Run",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
@@ -80,7 +81,7 @@
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3-3_Pallina_colorata">
+  <component name="RunManager">
     <configuration name="3-1_Parallelepipedo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Esercitazioni in classe" />
       <option name="ENV_FILES" value="" />
@@ -282,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760474963516</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Creati i primi 3 esercizi.">
+      <option name="closed" value="true" />
+      <created>1760481102105</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1760481102105</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -300,6 +309,7 @@
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide." />
     <MESSAGE value="Creata cartella per gli esercizi in classe fatti sui quiz." />
     <MESSAGE value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
+    <MESSAGE value="Creati i primi 3 esercizi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creati i primi 3 esercizi." />
   </component>
 </project>
