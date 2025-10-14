@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creata cartella per gli esercizi in classe fatti sui quiz.">
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/g2d.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,18 +57,20 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Linea spezzata"
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Packages"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Lab\2025-10-13\Rifatti a casa" />
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Linea spezzata" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Segmenti casuali" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati in Diagonale" />
-      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Quadrati casuali" />
-      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Cerchio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Slides" />
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Basi" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
@@ -174,7 +178,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758711673988</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide.">
+      <option name="closed" value="true" />
+      <created>1760474639802</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1760474639802</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Creata cartella per gli esercizi in classe fatti sui quiz.">
+      <option name="closed" value="true" />
+      <created>1760474695253</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1760474695253</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -189,6 +209,8 @@
     <MESSAGE value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
-    <option name="LAST_COMMIT_MESSAGE" value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
+    <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide." />
+    <MESSAGE value="Creata cartella per gli esercizi in classe fatti sui quiz." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creata cartella per gli esercizi in classe fatti sui quiz." />
   </component>
 </project>
