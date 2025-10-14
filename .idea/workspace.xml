@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creata cartella per gli esercizi in classe fatti sui quiz.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/g2d.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle.">
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-1_Parallelepipedo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-2_Modello_esponenziale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-3_Pallina_colorata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +47,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.3-1_Parallelepipedo.executor": "Run",
+    "Python.3-2_Modello_esponenziale.executor": "Run",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
@@ -57,7 +62,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Packages"
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Lab/2025-10-13/Rifatti a casa"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,6 +79,81 @@
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Basi" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.3-3_Pallina_colorata">
+    <configuration name="3-1_Parallelepipedo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Esercitazioni in classe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-1_Parallelepipedo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3-2_Modello_esponenziale" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Esercitazioni in classe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-2_Modello_esponenziale.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3-3_Pallina_colorata" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Esercitazioni in classe" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-3_Pallina_colorata.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3-3_Pallina_colorata" />
+        <item itemvalue="Python.3-2_Modello_esponenziale" />
+        <item itemvalue="Python.3-1_Parallelepipedo" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -194,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760474695253</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle.">
+      <option name="closed" value="true" />
+      <created>1760474963516</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1760474963516</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +299,7 @@
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide." />
     <MESSAGE value="Creata cartella per gli esercizi in classe fatti sui quiz." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creata cartella per gli esercizi in classe fatti sui quiz." />
+    <MESSAGE value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
   </component>
 </project>
