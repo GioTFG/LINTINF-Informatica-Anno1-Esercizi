@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolti gli esercizi 3-5 e 3-6.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-7_Codici_pari_e_dispari.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-8_Sentinella.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolti gli esercizi 3-7 e 3-8.">
+      <change afterPath="$PROJECT_DIR$/Lab/2025-10-13/Rifatti a casa/3-9_Oscillazione_e_sprite.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +53,7 @@
     "Python.3-6_Quadrati_a_destra.executor": "Run",
     "Python.3-7_Codici_pari_e_dispari.executor": "Run",
     "Python.3-8_Sentinella.executor": "Run",
+    "Python.3-9_Oscillazione_e_sprite.executor": "Run",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
@@ -319,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760519149028</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Svolti gli esercizi 3-7 e 3-8.">
+      <option name="closed" value="true" />
+      <created>1760519598466</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1760519598466</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -341,6 +349,7 @@
     <MESSAGE value="Scaricata ball.png. Svolto l'esercizio 3-4." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-5." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-6." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolti gli esercizi 3-5 e 3-6." />
+    <MESSAGE value="Svolti gli esercizi 3-7 e 3-8." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolti gli esercizi 3-7 e 3-8." />
   </component>
 </project>
