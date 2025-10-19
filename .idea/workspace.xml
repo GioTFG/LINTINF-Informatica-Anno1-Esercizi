@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Escluso polar nelle cartelle di lavoro da git">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Disegna poligono&quot;.">
+      <change afterPath="$PROJECT_DIR$/Slides/Funzioni/orologio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Slides/Funzioni/disegna_poligono.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Funzioni/disegna_poligono.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Python.gruppi_di_lettere.executor": "Run",
     "Python.linea.executor": "Run",
     "Python.minoreMaggiore.executor": "Run",
+    "Python.orologio.executor": "Run",
     "Python.parole_di_tre_lettere.executor": "Run",
     "Python.quadrati.executor": "Run",
     "Python.quadratiDiagonale.executor": "Run",
@@ -433,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760907234280</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Svolto l'esercizio &quot;Disegna poligono&quot;.">
+      <option name="closed" value="true" />
+      <created>1760908495973</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1760908495973</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +456,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Svolto l'esercizio &quot;Quadrati casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Quadrati in diagonale&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
@@ -473,6 +480,7 @@
     <MESSAGE value="Svolto l'esercizio &quot;Importato polar.py&quot;" />
     <MESSAGE value="Importato polar.py, sto cercando di capire perché gitignore non collabora." />
     <MESSAGE value="Escluso polar nelle cartelle di lavoro da git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Escluso polar nelle cartelle di lavoro da git" />
+    <MESSAGE value="Svolto l'esercizio &quot;Disegna poligono&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Disegna poligono&quot;." />
   </component>
 </project>
