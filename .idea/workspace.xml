@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Funzione, Fahrenheit&quot;.">
-      <change afterPath="$PROJECT_DIR$/Slides/Funzioni/ellisse.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Area di un'ellisse&quot;">
+      <change afterPath="$PROJECT_DIR$/Slides/Funzioni/triangolo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
     "Python.cerchio.executor": "Run",
+    "Python.ellisse.executor": "Run",
     "Python.età.executor": "Run",
     "Python.fahrenheit.executor": "Run",
     "Python.linea.executor": "Run",
@@ -63,11 +65,13 @@
     "Python.quadrati.executor": "Run",
     "Python.quadratiDiagonale.executor": "Run",
     "Python.segmenti.executor": "Run",
+    "Python.triangolo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Lab/2025-10-13/Rifatti a casa"
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Lab/2025-10-13/Rifatti a casa",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.postfix.templates"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -343,7 +347,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760903290393</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Svolto l'esercizio &quot;Area di un'ellisse&quot;">
+      <option name="closed" value="true" />
+      <created>1760903658564</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1760903658564</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,6 +391,7 @@
     <MESSAGE value="Svolti gli esercizi 3-7 e 3-8." />
     <MESSAGE value="Svolto l'esercizio 3-9." />
     <MESSAGE value="Svolto l'esercizio &quot;Funzione, Fahrenheit&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Funzione, Fahrenheit&quot;." />
+    <MESSAGE value="Svolto l'esercizio &quot;Area di un'ellisse&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Area di un'ellisse&quot;" />
   </component>
 </project>
