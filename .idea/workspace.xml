@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;">
-      <change afterPath="$PROJECT_DIR$/Packages/actor.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Inclusa la libreria actor.py">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-7_Focus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-7_Focus.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +97,7 @@
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.3-1_Parallelepipedo">
+  <component name="RunManager">
     <configuration name="3-1_Parallelepipedo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Esercitazioni in classe" />
       <option name="ENV_FILES" value="" />
@@ -459,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761171332131</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Inclusa la libreria actor.py">
+      <option name="closed" value="true" />
+      <created>1761318542147</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1761318542147</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide." />
     <MESSAGE value="Creata cartella per gli esercizi in classe fatti sui quiz." />
@@ -499,6 +506,7 @@
     <MESSAGE value="Svolto l'esercizio &quot;Disegna poligono&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Orologio classico&quot;." />
     <MESSAGE value="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;" />
+    <MESSAGE value="Inclusa la libreria actor.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inclusa la libreria actor.py" />
   </component>
 </project>

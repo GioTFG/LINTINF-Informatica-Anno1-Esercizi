@@ -1,7 +1,7 @@
 from random import choice, randrange
 from actor import Actor, Arena, Point
 
-VIEW_W, VIEW_H = 400, 300
+VIEW_W, VIEW_H = 400, 240
 
 
 class Ball(Actor):
@@ -115,9 +115,14 @@ class Turtle(Actor):
 
 
 class View:
-    def __init__(self, pos: tuple[int, int] = (0, 0), size: tuple[int, int] = (200, 100)):
+    def __init__(self, pos: tuple[int, int] = (0, 0), size: tuple[int, int] = (200, 100), actor: Actor = None):
         self._x, self._y = pos
         self._w, self._h = size
+        self._speed = 2
+        self._actor = actor
+
+        self.move()
+
 
     def pos(self):
         return self._x, self._y
@@ -125,31 +130,44 @@ class View:
     def size(self):
         return self._w, self._h
 
-    def move(self, keys: tuple[str]):
-        dx, dy = 0, 0
-        if "ArrowUp" in keys:
-            dy = -2
-        if "ArrowDown" in keys:
-            dy = 2
-        if "ArrowLeft" in keys:
-            dx = -2
-        if "ArrowRight" in keys:
-            dx = 2
+    def move(self, keys: tuple[str] = None):
 
-        self._x += dx
-        self._y += dy
+        if self._actor is not None:
+            self._x, self._y = remove_pos(self._actor.pos(), (self._w / 2, self._h / 2))
+
+        ### Sto divagando facendo queste prove ma le sto facendo perché mi serviranno per il progetto
+        # if keys is not None:
+        #     dx, dy = 0, 0
+        #
+        #     if "ArrowUp" in keys:
+        #         dy = -self._speed
+        #     if "ArrowDown" in keys:
+        #         dy = self._speed
+        #     if "ArrowLeft" in keys:
+        #         dx = -self._speed
+        #     if "ArrowRight" in keys:
+        #         dx = self._speed
+        #
+        #     self._x += dx
+        #     self._y += dy
+
+        self._x = max(self._x, 0)
+        self._y = max(self._y, 0)
+        self._x = min(self._x, int(arena.size()[0] - self._w))
+        self._y = min(self._y, int(arena.size()[1] - self._h))
 
 
-def remove_pos(pos1: tuple[int, int], pos2: tuple[int, int]):
+def remove_pos(pos1: tuple[float, float], pos2: tuple[float, float]):
     """
-    Sottrae componente per componente da pos1 pos2.
+    Sottrae componente per componente da pos1 pos2.\n
     Es: (10, 9) - (4, 1) = (6, 8)
     """
     return pos1[0] - pos2[0], pos1[1] - pos2[1]
 
 
 def tick():
-    g2d.clear_canvas()
+    # g2d.clear_canvas()
+    g2d.draw_image("ghosts-goblins-bg.png", (remove_pos((0,0), view.pos())), (2, 10), (480, 240))
     for a in arena.actors():
         if a.sprite() != None:
             g2d.draw_image("sprites.png", remove_pos(a.pos(), view.pos()), a.sprite(), a.size())
@@ -164,15 +182,18 @@ def main():
     global g2d, arena, view
     import g2d  # game classes do not depend on g2d
 
-    arena = Arena((480, 360))
+    arena = Arena((480, 240))
     arena.spawn(Ball((40, 80)))
     arena.spawn(Ball((80, 40)))
     arena.spawn(Ghost((120, 80)))
-    arena.spawn(Turtle((230, 170)))
 
-    view = View((230 - (VIEW_W / 2), 170 - (VIEW_H / 2)), (VIEW_W, VIEW_H))
+    turtle = Turtle((230, 170))
 
-    g2d.init_canvas(view.size())
+    arena.spawn(turtle)
+
+    view = View((230 - (VIEW_W // 2), 170 - (VIEW_H // 2)), (VIEW_W, VIEW_H), turtle)
+
+    g2d.init_canvas(view.size(), 3)
     g2d.main_loop(tick)
 
 
