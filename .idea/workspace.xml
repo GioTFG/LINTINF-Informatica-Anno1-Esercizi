@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Svolto l'esercizio &quot;Orologio classico&quot;.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-7_Focus.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;">
+      <change afterPath="$PROJECT_DIR$/Packages/actor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,51 +43,52 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.3-1_Parallelepipedo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-2_Modello_esponenziale.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-3_Pallina_colorata.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-4_Mai_indietro.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-5_Sequenza_di_quadrati.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-6_Quadrati_a_destra.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-7_Codici_pari_e_dispari.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-8_Sentinella.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3-9_Oscillazione_e_sprite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.annoDrago.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bridge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.cerchio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.disegna_poligono.executor&quot;: &quot;Run&quot;,
-    &quot;Python.divisori_comuni.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ellisse.executor&quot;: &quot;Run&quot;,
-    &quot;Python.età.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fahrenheit.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gruppi_di_lettere.executor&quot;: &quot;Run&quot;,
-    &quot;Python.linea.executor&quot;: &quot;Run&quot;,
-    &quot;Python.minoreMaggiore.executor&quot;: &quot;Run&quot;,
-    &quot;Python.orologio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.parole_di_tre_lettere.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quadrati.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quadratiDiagonale.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quadrato_perfetto.executor&quot;: &quot;Run&quot;,
-    &quot;Python.segmenti.executor&quot;: &quot;Run&quot;,
-    &quot;Python.triangolo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Slides/Funzioni&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.3-1_Parallelepipedo.executor": "Run",
+    "Python.3-2_Modello_esponenziale.executor": "Run",
+    "Python.3-3_Pallina_colorata.executor": "Run",
+    "Python.3-4_Mai_indietro.executor": "Run",
+    "Python.3-5_Sequenza_di_quadrati.executor": "Run",
+    "Python.3-6_Quadrati_a_destra.executor": "Run",
+    "Python.3-7_Codici_pari_e_dispari.executor": "Run",
+    "Python.3-8_Sentinella.executor": "Run",
+    "Python.3-9_Oscillazione_e_sprite.executor": "Run",
+    "Python.4-7_Focus.executor": "Run",
+    "Python.annoDrago.executor": "Run",
+    "Python.bridge.executor": "Run",
+    "Python.cerchio.executor": "Run",
+    "Python.disegna_poligono.executor": "Run",
+    "Python.divisori_comuni.executor": "Run",
+    "Python.ellisse.executor": "Run",
+    "Python.età.executor": "Run",
+    "Python.fahrenheit.executor": "Run",
+    "Python.gruppi_di_lettere.executor": "Run",
+    "Python.linea.executor": "Run",
+    "Python.minoreMaggiore.executor": "Run",
+    "Python.orologio.executor": "Run",
+    "Python.parole_di_tre_lettere.executor": "Run",
+    "Python.quadrati.executor": "Run",
+    "Python.quadratiDiagonale.executor": "Run",
+    "Python.quadrato_perfetto.executor": "Run",
+    "Python.segmenti.executor": "Run",
+    "Python.triangolo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/UNI/2025-26/Informatica e Laboratorio di Programmazione/Esercitazioni/Lab/2025-10-20/Rifatti a casa",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Lab\2025-10-20\Rifatti a casa" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Slides\Funzioni" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Lab\2025-10-13\Rifatti a casa" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Linea spezzata" />
-      <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Segmenti casuali" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Slides" />
@@ -95,7 +97,7 @@
       <recent name="D:\UNI\2025-26\Informatica e Laboratorio di Programmazione\Esercitazioni\Packages" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.3-1_Parallelepipedo">
     <configuration name="3-1_Parallelepipedo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Esercitazioni in classe" />
       <option name="ENV_FILES" value="" />
@@ -449,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760908822066</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;">
+      <option name="closed" value="true" />
+      <created>1761171332131</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1761171332131</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Svolto l'esercizio &quot;Segmenti casuali&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Linea spezzata&quot;." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella tutta loro." />
     <MESSAGE value="Spostati gli esercizi delle slide &quot;Basi&quot; in una cartella per gli esercizi delle slide." />
@@ -489,6 +498,7 @@
     <MESSAGE value="Escluso polar nelle cartelle di lavoro da git" />
     <MESSAGE value="Svolto l'esercizio &quot;Disegna poligono&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Orologio classico&quot;." />
-    <option name="LAST_COMMIT_MESSAGE" value="Svolto l'esercizio &quot;Orologio classico&quot;." />
+    <MESSAGE value="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cominciato l'esercizio di lab. 4-7: &quot;Focus su un personaggio&quot;" />
   </component>
 </project>
