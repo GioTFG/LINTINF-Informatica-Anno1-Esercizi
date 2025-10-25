@@ -8,55 +8,75 @@ class Arthur(Actor):
         self._speed = 2
         self._gravity = 2
         self._dy = 0
-        self._state = "Idle"
+        self._state = "IdleRight"
         self._running_state = 1
+
+        self._direction = "Right"
+
         self._sprites = {
-            "Idle": (6, 42),
-            "RunningRight1": (40, 42),
-            "RunningRight2": (66, 42),
-            "RunningRight3": (88, 42),
-            "RunningRight4": (109, 42),
-            "RunningLeft1": (449, 43),
-            "RunningLeft2": (427, 43),
-            "RunningLeft3": (405, 43),
-            "RunningLeft4": (379, 43)
+            "IdleRight": (134, 609),
+            "IdleLeft": (358, 609),
+
+            "RunningRight1": (5, 608),
+            "RunningRight2": (39, 608),
+            "RunningRight3": (72, 608),
+            "RunningRight4": (102, 608),
+            "RunningLeft1": (484, 608),
+            "RunningLeft2": (454, 608),
+            "RunningLeft3": (421, 608),
+            "RunningLeft4": (386, 608),
+
+            "JumpUpRight": (160, 613),
+            "JumpDownRight": (194, 613),
+            "JumpUpLeft": (320, 613),
+            "JumpDownLeft": (291, 613),
         }
 
         self._sizes = {
-            "Idle": (20, 32),
+            "IdleRight": (20, 31),
+            "IdleLeft": (20, 31),
             "RunningRight1": (23, 32),
             "RunningRight2": (18, 32),
             "RunningRight3": (19, 32),
-            "RunningRight4": (23, 32),
+            "RunningRight4": (24, 32),
             "RunningLeft1": (23, 32),
-            "RunningLeft2": (19, 32),
-            "RunningLeft3": (18, 32),
-            "RunningLeft4": (23, 32)
+            "RunningLeft2": (18, 32),
+            "RunningLeft3": (19, 32),
+            "RunningLeft4": (24, 32),
+
+            "JumpUpRight": (32, 27),
+            "JumpDownRight": (27, 27),
+            "JumpUpLeft": (32, 27),
+            "JumpDownLeft": (27, 27)
         }
 
     def move(self, arena: Arena):
         # Collisioni
-        for other in arena.collisions():
-            if isinstance(other, Ball):
-                self.hit(arena)
+        # for other in arena.collisions():
+        #     if isinstance(other, Ball):
+        #         self.hit(arena)
+
+        self._dx = 0    # Serve per capire se c'è movimento negli sprite
 
         # Tasti
         keys = arena.current_keys()
         if "ArrowLeft" in keys:
             self._x -= self._speed
+            self._direction = "Left"
         if "ArrowRight" in keys:
             self._x += self._speed
+            self._direction = "Right"
 
         aw, ah = arena.size()
 
         # Gravità
         if "ArrowUp" in keys and self.is_on_ground():
-            self._dy = -10
+            self._dy = -15
 
         if self._dy > 0:
             self._dy += self._gravity
 
-        if self._y > ah - self._h:
+        if self.is_on_ground() and not "ArrowUp" in keys:
             self._dy = 0
         else:
             self._dy += self._gravity
@@ -67,6 +87,7 @@ class Arthur(Actor):
         self._y = min(max(self._y, 0), ah - self._h)
 
         self.set_state()
+        # print(self._dy)
 
     def hit(self, arena: Arena):
         arena.kill(self)
@@ -77,22 +98,13 @@ class Arthur(Actor):
     def size(self) -> Point:
         if self._state in self._sizes:
             return self._sizes[self._state]
-        return self._sizes["Idle"]
+        return self._sizes["IdleRight"]
 
     def sprite(self) -> Point:
-        # x, y = 6, 43
-        # if "ArrowLeft" in keys:
-        #     x, y = 450, 43
-        # if "ArrowRight" in keys:
-        #     x, y = 40, 43
-        #
-        # if "ArrowLeft" in keys and "ArrowRight" in keys:
-        #     x, y = 6, 43
-
         if self._state in self._sprites:
             return self._sprites[self._state]
         else:
-            return self._sprites["Idle"]
+            return self._sprites["IdleRight"]
 
     def is_on_ground(self) -> bool:
         aw, ah = arena.size()
@@ -101,19 +113,23 @@ class Arthur(Actor):
     def set_state(self):
         keys = g2d.current_keys()
 
+        current_state = self._state
+        self._state = "Idle" + self._direction
 
-
-        self._state = "Idle"
-
-        if "ArrowLeft" in keys:
-            self._state = "RunningLeft" + str(self._running_state + 1)
-            self._running_state = ((self._running_state + 1) % 4)
-        if "ArrowRight" in keys:
-            self._state = "RunningRight" + str(self._running_state + 1)
+        if "ArrowLeft" in keys or "ArrowRight" in keys:
+            self._state = "Running" + self._direction + str(self._running_state + 1)
             self._running_state = ((self._running_state + 1) % 4)
 
         if "ArrowLeft" in keys and "ArrowRight" in keys:
-            self._state = "Idle"
+            self._state = "IdleRight"
+            self._direction = "Right"
+
+        if not self.is_on_ground():
+            if self._dy > 0:
+                self._state = "JumpDown" + self._direction
+            elif self._dy < 0:
+                self._state = "JumpUp" + self._direction
+
 
 def tick():
     g2d.clear_canvas()
