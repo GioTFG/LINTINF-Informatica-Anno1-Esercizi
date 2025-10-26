@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn.">
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" afterDir="false" />
     </list>
@@ -426,7 +426,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761421567397</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena">
+      <option name="closed" value="true" />
+      <created>1761498040328</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1761498040328</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -441,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creati i primi 3 esercizi." />
     <MESSAGE value="Scaricata ball.png. Svolto l'esercizio 3-4." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-5." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-6." />
@@ -466,7 +473,8 @@
     <MESSAGE value="Cominciato il 4-8.&#10;Scritta tutta la logica per comandi di base (muoversi e saltare).&#10;Introdotti gli sprite per il camminare a sinistra e a destra." />
     <MESSAGE value="Continuato 4-8.&#10;Introdotti gli sprite dei salti.&#10;Inserito un sistema per gli sprite.&#10;Si potrebbe migliorare perchè le sizes sono le stesse a prescindere dallo sprite se è verso destra o verso sinistra." />
     <MESSAGE value="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn." />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn." />
+    <MESSAGE value="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

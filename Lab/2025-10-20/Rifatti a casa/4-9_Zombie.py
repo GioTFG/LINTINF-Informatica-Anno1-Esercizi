@@ -273,19 +273,34 @@ class Zombie(Actor):
     def _despawn(self):
         self._despawned = True
 
+    def is_despawned(self):
+        return self._despawned
+
 def tick():
     g2d.clear_canvas()
+
+    if randrange(500) == 0:
+        player_x, player_y = player.pos()
+        direction = choice(("Right", "Left"))
+        if direction == "Right":
+            arena.spawn(Zombie((player_x - randrange(50, 200), player_y), direction))
+        else:
+            arena.spawn(Zombie((player_x + randrange(50, 200), player_y), direction))
+
     for a in arena.actors():
         if a.sprite() != None:
             g2d.draw_image("ghosts-goblins.png", a.pos(), a.sprite(), a.size())
         else:
             pass  # g2d.draw_rect(a.pos(), a.size())
 
+        if isinstance(a, Zombie) and a.is_despawned():
+            arena.kill(a)
+
     arena.tick(g2d.current_keys())  # Game logic
 
 
 def main():
-    global g2d, arena
+    global g2d, arena, player
     import g2d  # game classes do not depend on g2d
 
     arena = Arena((480, 360))
