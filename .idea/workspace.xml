@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena">
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" afterDir="false" />
     </list>
@@ -434,7 +434,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761498040328</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)">
+      <option name="closed" value="true" />
+      <created>1761498663192</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1761498663192</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Scaricata ball.png. Svolto l'esercizio 3-4." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-5." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-6." />
     <MESSAGE value="Svolti gli esercizi 3-7 e 3-8." />
@@ -474,14 +481,15 @@
     <MESSAGE value="Continuato 4-8.&#10;Introdotti gli sprite dei salti.&#10;Inserito un sistema per gli sprite.&#10;Si potrebbe migliorare perchè le sizes sono le stesse a prescindere dallo sprite se è verso destra o verso sinistra." />
     <MESSAGE value="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn." />
     <MESSAGE value="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena" />
-    <option name="LAST_COMMIT_MESSAGE" value="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena" />
+    <MESSAGE value="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py</url>
-          <line>207</line>
+          <line>210</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

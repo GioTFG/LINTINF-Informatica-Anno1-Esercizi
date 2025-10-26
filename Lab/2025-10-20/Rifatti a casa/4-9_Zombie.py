@@ -173,6 +173,9 @@ class Zombie(Actor):
         """
 
         self._dx = 0
+        self._dy = 0
+        self._gravity = 2
+
         self._distance = randrange(150, 301)
         self._state = "Spawn" + direction
 
@@ -228,6 +231,18 @@ class Zombie(Actor):
             else: #Caso in cui è finito il countdown del despawn
                 self._despawn()
 
+        # Gravità
+        if self.is_on_ground():
+            self._dy = 0
+        else:
+            self._dy += self._gravity
+            self._y += self._dy
+
+        # Controllo out of bounds
+        aw, ah = arena.size()
+        self._x = min(max(self._x, 0), aw - self.size()[0])
+        self._y = min(max(self._y, 0), ah - self.size()[1])
+
         self._set_state()
 
     def _spawn(self):
@@ -275,6 +290,10 @@ class Zombie(Actor):
 
     def is_despawned(self):
         return self._despawned
+
+    def is_on_ground(self):
+        aw, ah = arena.size()
+        return self._y >= ah - self.size()[1]
 
 def tick():
     g2d.clear_canvas()
