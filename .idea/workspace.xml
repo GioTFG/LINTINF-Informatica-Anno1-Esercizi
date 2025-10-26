@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Continuato 4-8.&#10;Introdotti gli sprite dei salti.&#10;Inserito un sistema per gli sprite.&#10;Si potrebbe migliorare perchè le sizes sono le stesse a prescindere dallo sprite se è verso destra o verso sinistra.">
-      <change afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     "Python.3-9_Oscillazione_e_sprite.executor": "Run",
     "Python.4-7_Focus.executor": "Run",
     "Python.4-8_Arthur_Salti.executor": "Run",
-    "Python.4-9_Zombie.executor": "Debug",
+    "Python.4-9_Zombie.executor": "Run",
     "Python.actor.executor": "Debug",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
@@ -418,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761389786306</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn.">
+      <option name="closed" value="true" />
+      <created>1761421567397</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1761421567397</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -433,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Creato il gitignore, che inserirà i singoli file di g2d nelle varie cartelle." />
     <MESSAGE value="Creati i primi 3 esercizi." />
     <MESSAGE value="Scaricata ball.png. Svolto l'esercizio 3-4." />
     <MESSAGE value="Svolti gli esercizi 3-5 e 3-5." />
@@ -458,15 +465,16 @@
     <MESSAGE value="Incluse le immagini di Ghosts and Goblins, svolto l'esercizio 4-7." />
     <MESSAGE value="Cominciato il 4-8.&#10;Scritta tutta la logica per comandi di base (muoversi e saltare).&#10;Introdotti gli sprite per il camminare a sinistra e a destra." />
     <MESSAGE value="Continuato 4-8.&#10;Introdotti gli sprite dei salti.&#10;Inserito un sistema per gli sprite.&#10;Si potrebbe migliorare perchè le sizes sono le stesse a prescindere dallo sprite se è verso destra o verso sinistra." />
-    <option name="LAST_COMMIT_MESSAGE" value="Continuato 4-8.&#10;Introdotti gli sprite dei salti.&#10;Inserito un sistema per gli sprite.&#10;Si potrebbe migliorare perchè le sizes sono le stesse a prescindere dallo sprite se è verso destra o verso sinistra." />
+    <MESSAGE value="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn." />
+    <option name="LAST_COMMIT_MESSAGE" value="Iniziato l'esercizio 4-9.&#10;Creata tutta la logica di spawn e di movimento dello zombie.&#10;Rimane #TODO lo spawn automatico nella mappa, la gravità, il despawn." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py</url>
-          <line>222</line>
-          <option name="timeStamp" value="9" />
+          <line>207</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -474,6 +482,11 @@
       <configuration name="PythonConfigurationType">
         <watch expression="self._state" language="Python" />
         <watch expression="self._walk_anim_countdown" language="Python" />
+        <watch expression="self._spawn_countdown" language="Python" />
+        <watch expression="self._distance" language="Python" />
+        <watch expression="self._dx" language="Python" />
+        <watch expression="self._distance" />
+        <watch expression="self._spawn_countdown_start" language="Python" />
       </configuration>
     </watches-manager>
   </component>

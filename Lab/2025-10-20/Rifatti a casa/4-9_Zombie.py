@@ -148,6 +148,9 @@ class Zombie(Actor):
         "Walk1Right": (699, 66),
         "Walk2Right": (677, 65),
         "Walk3Right": (654, 66),
+
+        "DespawnedLeft": None,
+        "DespawnedRight": None
     }
 
     _sizes: dict[str, tuple[int, int]] = {
@@ -156,7 +159,9 @@ class Zombie(Actor):
         "Spawn3": (19, 24),
         "Walk1": (22, 31),
         "Walk2": (19, 32),
-        "Walk3": (21, 31)
+        "Walk3": (21, 31),
+
+        "Despawned": (0,0)
     }
 
     def __init__(self, pos: tuple[float, float], direction: str):
@@ -192,21 +197,36 @@ class Zombie(Actor):
         return self._sizes["Walk3"]
 
     def sprite(self):
+        # print(f"Dist:{self._distance}, State:{self._state}, SpCtdwn:{self._spawn_countdown}, SeCtStart:{self._spawn_countdown_start}\n\n")
         if self._state + self._direction in self._sprites:
             return self._sprites[self._state + self._direction]
         else:
             return self._sprites["Walk3" + self._direction]
 
     def move(self, arena: Arena):
-        if self._spawn_countdown[0] > 0:
-            self._spawn_countdown[0] -= 1
-        elif self._spawn_countdown[1] > 0:
-            self._spawn_countdown[1] -= 1
-        elif self._spawn_countdown[2] > 0:
-            self._spawn_countdown[2] -= 1
+        # print(self._distance)
+        if self._distance > 0:
+            "Il campo distance contiene il numero di pixel che ancora deve percorrere lo zombie prima di poter despawnare."
+            if self._spawn_countdown[0] > 0:
+                self._spawn_countdown[0] -= 1
+            elif self._spawn_countdown[1] > 0:
+                self._spawn_countdown[1] -= 1
+            elif self._spawn_countdown[2] > 0:
+                self._spawn_countdown[2] -= 1
+            else:
+                self._dx = self._x_speed if self._direction == "Right" else -self._x_speed
+                self._x += self._dx
+                self._distance -= self._dx
         else:
-            self._dx = self._x_speed if self._direction == "Right" else -self._x_speed
-            self._x += self._dx
+            self._dx = 0
+            if self._spawn_countdown[2] < self._spawn_countdown_start[2]:
+                self._spawn_countdown[2] += 1
+            elif self._spawn_countdown[1] < self._spawn_countdown_start[1]:
+                self._spawn_countdown[1] += 1
+            elif self._spawn_countdown[0] < self._spawn_countdown_start[0]:
+                self._spawn_countdown[0] += 1
+            else: #Caso in cui è finito il countdown del despawn
+                self._despawn()
 
         self._set_state()
 
@@ -219,9 +239,17 @@ class Zombie(Actor):
 
         self._spawn_countdown = (randrange(1, 3), randrange(1, 3), randrange(1,4))
         self._spawn_countdown = [c * FPS for c in self._spawn_countdown]
+        self._spawn_countdown_start = self._spawn_countdown[:] # Faccio una copia per riutilizzare i valori iniziali
+
+        self._spawned = True
+        self._despawned = False
 
     def _set_state(self):
-        if self._dx != 0:
+
+        if self._despawned:
+            self._state = "Despawned"
+
+        elif self._dx != 0:
             self._state = "Walk"
             if self._walk_anim_countdown > self._walk_anim_countdown_start * 2 / 3:
                 self._state += "1"
@@ -241,6 +269,9 @@ class Zombie(Actor):
 
         else:
             self._state = "Idle"
+
+    def _despawn(self):
+        self._despawned = True
 
 def tick():
     g2d.clear_canvas()
@@ -265,7 +296,7 @@ def main():
 
     player = Arthur((400, 0))
     arena.spawn(player)
-    arena.spawn(Zombie((200, 200), "Right"))
+    arena.spawn(Zombie((50, 200), "Right"))
 
     g2d.init_canvas(arena.size(), 2)
     g2d.main_loop(tick)
