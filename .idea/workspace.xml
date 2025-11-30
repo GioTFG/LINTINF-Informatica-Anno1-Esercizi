@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="4-9: Implementata la gravità e il controllo out-of-bounds per gli zombie.&#10;#BUG: C'è un caso particolare in cui se gli zombie &quot;sbattono&quot; alla parete sinistra dell'arena non despawnano mai.">
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Istogramma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/risultati_casuali.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Sequenze: Cominciati gli esercizi">
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Clamp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Occorrenze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Riempimento.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Shuffle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/parole_comune.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +62,12 @@
     "Python.4-7_Focus.executor": "Run",
     "Python.4-8_Arthur_Salti.executor": "Run",
     "Python.4-9_Zombie.executor": "Run",
+    "Python.Clamp.executor": "Run",
     "Python.Istogramma.executor": "Run",
+    "Python.Merge.executor": "Run",
+    "Python.Occorrenze.executor": "Run",
+    "Python.Riempimento.executor": "Run",
+    "Python.Shuffle.executor": "Run",
     "Python.actor.executor": "Debug",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
@@ -453,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761499316984</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Sequenze: Cominciati gli esercizi">
+      <option name="closed" value="true" />
+      <created>1764503604689</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1764503604689</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -468,7 +485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Svolti gli esercizi 3-5 e 3-6." />
     <MESSAGE value="Svolti gli esercizi 3-7 e 3-8." />
     <MESSAGE value="Svolto l'esercizio 3-9." />
     <MESSAGE value="Svolto l'esercizio &quot;Funzione, Fahrenheit&quot;." />
@@ -493,7 +509,8 @@
     <MESSAGE value="4-9: Implementato il despawn dello zombie.&#10;#TODO:&#10;- Gravità&#10;- Spawn automatico nella mappa&#10;- Rimuovere lo zombie tra gli actor dell'arena" />
     <MESSAGE value="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)" />
     <MESSAGE value="4-9: Implementata la gravità e il controllo out-of-bounds per gli zombie.&#10;#BUG: C'è un caso particolare in cui se gli zombie &quot;sbattono&quot; alla parete sinistra dell'arena non despawnano mai." />
-    <option name="LAST_COMMIT_MESSAGE" value="4-9: Implementata la gravità e il controllo out-of-bounds per gli zombie.&#10;#BUG: C'è un caso particolare in cui se gli zombie &quot;sbattono&quot; alla parete sinistra dell'arena non despawnano mai." />
+    <MESSAGE value="Sequenze: Cominciati gli esercizi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequenze: Cominciati gli esercizi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -502,6 +519,11 @@
           <url>file://$PROJECT_DIR$/Lab/2025-10-20/Rifatti a casa/4-9_Zombie.py</url>
           <line>210</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Slides/Sequenze/Riempimento.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
