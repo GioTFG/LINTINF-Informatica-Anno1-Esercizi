@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="4-9: Implementata la gravità e il controllo out-of-bounds per gli zombie.&#10;#BUG: C'è un caso particolare in cui se gli zombie &quot;sbattono&quot; alla parete sinistra dell'arena non despawnano mai.">
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Istogramma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/risultati_casuali.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +58,7 @@
     "Python.4-7_Focus.executor": "Run",
     "Python.4-8_Arthur_Salti.executor": "Run",
     "Python.4-9_Zombie.executor": "Run",
+    "Python.Istogramma.executor": "Run",
     "Python.actor.executor": "Debug",
     "Python.annoDrago.executor": "Run",
     "Python.bridge.executor": "Run",
@@ -73,6 +76,7 @@
     "Python.quadrati.executor": "Run",
     "Python.quadratiDiagonale.executor": "Run",
     "Python.quadrato_perfetto.executor": "Run",
+    "Python.risultati_casuali.executor": "Run",
     "Python.segmenti.executor": "Run",
     "Python.triangolo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
