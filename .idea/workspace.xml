@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Sequenze: Cominciati gli esercizi">
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Clamp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Merge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Occorrenze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Riempimento.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/Shuffle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Slides/Sequenze/parole_comune.py" afterDir="false" />
+    <list default="true" id="795ce906-2998-40d2-81b9-7e48d570d380" name="Changes" comment="Sequenze: Completati gli esercizi">
+      <change afterPath="$PROJECT_DIR$/Slides/Matrici/incolonnamento_dati.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Slides/Matrici/smooth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/Basi/Cerchio/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Basi/Cerchio/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/Basi/Linea spezzata/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Basi/Linea spezzata/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/Basi/Quadrati casuali/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Basi/Quadrati casuali/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/Basi/Quadrati in Diagonale/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Basi/Quadrati in Diagonale/g2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Slides/Basi/Segmenti casuali/g2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/Slides/Basi/Segmenti casuali/g2d.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,15 +80,18 @@
     "Python.età.executor": "Run",
     "Python.fahrenheit.executor": "Run",
     "Python.gruppi_di_lettere.executor": "Run",
+    "Python.incolonnamento_dati.executor": "Run",
     "Python.linea.executor": "Run",
     "Python.minoreMaggiore.executor": "Run",
     "Python.orologio.executor": "Run",
+    "Python.parole_comune.executor": "Run",
     "Python.parole_di_tre_lettere.executor": "Run",
     "Python.quadrati.executor": "Run",
     "Python.quadratiDiagonale.executor": "Run",
     "Python.quadrato_perfetto.executor": "Run",
     "Python.risultati_casuali.executor": "Run",
     "Python.segmenti.executor": "Run",
+    "Python.smooth.executor": "Run",
     "Python.triangolo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -470,7 +475,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764503604689</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Sequenze: Completati gli esercizi">
+      <option name="closed" value="true" />
+      <created>1764505297952</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1764505297952</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +498,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Svolti gli esercizi 3-7 e 3-8." />
     <MESSAGE value="Svolto l'esercizio 3-9." />
     <MESSAGE value="Svolto l'esercizio &quot;Funzione, Fahrenheit&quot;." />
     <MESSAGE value="Svolto l'esercizio &quot;Area di un'ellisse&quot;" />
@@ -510,7 +522,8 @@
     <MESSAGE value="4-9: Implementato lo spawn automatico dello zombie.&#10;Implementata anche la rimozione dello zombie tra gli actor dell'arena una volta despawnato.&#10;#TODO:&#10;- Gravità&#10;- Spawn in posizione corretta (pos è la stessa durante lo spawn ma questo fa sembrare che non esca dal terreno ma poco più su)" />
     <MESSAGE value="4-9: Implementata la gravità e il controllo out-of-bounds per gli zombie.&#10;#BUG: C'è un caso particolare in cui se gli zombie &quot;sbattono&quot; alla parete sinistra dell'arena non despawnano mai." />
     <MESSAGE value="Sequenze: Cominciati gli esercizi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sequenze: Cominciati gli esercizi" />
+    <MESSAGE value="Sequenze: Completati gli esercizi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sequenze: Completati gli esercizi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
